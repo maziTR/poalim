@@ -1,0 +1,175 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    margin: 1em;
+    display: block;
+    direction: rtl;
+    font-family: 'Heebo', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+}
+
+button {
+    clear: both;
+    display: block;
+    position: relative;
+    font-size: 1em;
+    margin: 1em auto;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/*form div*/
+.formContainer {
+    color: #366161;
+    max-width: 19em;
+    min-height: 24em;
+    background: #c40219;
+    color: white;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.formContainer h1 {
+    font-size: 1.2em;
+    padding: 0.8em 0 0 0;
+    font-weight: normal;
+}
+
+.formContainer form {
+    width: 100%;
+    margin: 0.8em auto;
+    position: relative;
+    display: block;
+}
+
+.formContainer form button {
+    padding: 5px 50px;
+    -webkit-border-radius: 1em;
+    border-radius: 1em;
+    background: white;
+    width: auto;
+    color: #c40019;
+}
+
+.formContainer form button:hover {
+    background: #fcfff4;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #daeaed 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #daeaed 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #fcfff4 0%, #dfe5d7 40%, #daeaed 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#daeaed', GradientType=0);
+    /* IE6-9 */
+}
+
+.inputDiv {
+    display: inline-block;
+    width: 100%;
+}
+
+.inputDiv input {
+    width: 92%;
+    height: 0.5em;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    padding: 1.25em;
+    background: #e7e6e6;
+    color: #454c64;
+    font-weight: bold;
+    margin: .3em 0;
+}
+
+.inputDiv input:focus {
+    background: #ffffff;
+    text-align: left;
+}
+
+.inputDiv input:focus::placeholder {
+    background: #ffffff;
+    color: #ffffff;
+}
+
+input::placeholder {
+    color: #454c64;
+}
+
+/*action div*/
+
+.actionDiv {
+    background: #ae0117;
+    height: max-content;
+    padding-top: 0.1em;
+    margin-top: 2.5em;
+    border-bottom-right-radius: 0.4em;
+    border-bottom-left-radius: 0.4em;
+}
+
+/*links*/
+.clsWhiteLink {
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.clsWhiteLink:hover {
+    text-decoration: underline;
+}
+
+a.joinUs {
+    padding-bottom: 1.5em;
+    display: block;
+    width: 100%;
+    text-shadow: whitesmoke;
+    font-size: 0.9em;
+}
+
+/*open account btn*/
+.openAccount {
+    padding: 23px 40px;
+    background: #eeeeee;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #eeeeee 0%, #eeeeee 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #eeeeee 0%, #eeeeee 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #eeeeee 0%, #eeeeee 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#eeeeee', GradientType=0);
+    /* IE6-9 */
+    -webkit-box-shadow: 1px 1px 1px 1px #85111c;
+    box-shadow: 1px 1px 1px 1px #85111c;
+    color: #656b7f;
+    font-weight: bold;
+    width: 91%;
+    font-size: 1em;
+    margin: 1.8em auto;
+    position: relative;
+}
+
+.openAccount img {
+    height: 2em;
+    position: absolute;
+    display: inline;
+    right: 29px;
+    top: 1em;
+    -webkit-box-reflect: below 0 linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.1));
+}
+
+.openAccount span {
+    margin-right: 2em;
+    width: 100%;
+}
